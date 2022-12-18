@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+body{
+    height: 100vh;
+    background-color: #c9fad6;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%239C92AC' fill-opacity='0.06'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    height: 550px;
+    position: absolute;
+}
+
+.formulario {
+    width: 400px;
+    position: absolute;
+    background-color: #6bffc6;
+    border: 5px solid #1d5e1d;
+    border-radius: 10px;
+    padding: 30px 60px;
+    top: 290px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.formulario input,label,button{
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.formulario input{
+    height: 40px;
+    border: 2px solid #00412f;
+    border-radius: 10px;
+    padding: 0 8px;
+}
+
+.login-button{
+    margin-top: 120px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    background-color: #163e29;
+    box-shadow: 1px 1px 2px #000;
+    color: #fff;
+}
+
+.formulario button:hover{
+    background-color: #0cf733;
+}
